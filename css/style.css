@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 157, 233, 1);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 73px;
+    text-align: left;
+    color: white;
+    height: 73px;
+    padding: 0 60px;
+}
+.mainDiv{
+    background: url('../img/images 2.png') no-repeat center;
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.menu{
+    background: url('../img/фон.png') no-repeat center;
+    background-size: 100%;
+    height: 1129px;
+    padding: 60px 55px 0 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.option{
+    position: relative;
+    background: url('../img/Rectangle.png') no-repeat center;
+    width: 332px;
+    height: 282px;
+    font-family: "Roboto";
+    font-size: 22px;
+    padding: 60px 20px 45px 20px;
+    text-align: right;
+}
+.optionIcons{
+    position: absolute;
+    top: 146px;
+    left: 25px;
+}
+footer{
+    background-color: rgba(0, 157, 233, 1);
+    font-family: "Montserrat";
+    font-style: normal;
+    line-height: 100%;
+    text-align: left;
+    letter-spacing: 2%;
+    color: white;
+    height: 130px;
+    padding: 12px 125px 12px 125px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.upper img{
+    margin: 0 45px;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 17px 0;
+    font-size: 14px;
+}
+.lower img{
+    margin: 0 19px;
+}
