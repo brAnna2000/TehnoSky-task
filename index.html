@@ -8,48 +8,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/487b83a3c5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>TehnoSky</title>    
 </head>
 <body>
 <header>
     <div>
-        <span>12:09</span>
-        <span>16°C</span>
+        <span></span>
+        <span>16°C <i class="fas fa-cloud"></i></span>
     </div>
-    <div>13 сентября 2021</div>
+    <div></div>
 </header>
 <main>
     <div class="mainDiv">
-        <!-- <img class="belPost" src="./img/Group 2121.png" alt="" srcset=""> -->
-        <img src="./img/кнопка назад.png" alt="" srcset="">
-        <img src="./img/кнопка вперед.png" alt="" srcset="">
-        <!-- <div class="arrows">
-            
-        </div> -->
+        <img class="slider" src="./img/кнопка назад.png" alt="" srcset="">
+        <img class="slider" src="./img/кнопка вперед.png" alt="" srcset="">
     </div>
     <div class="menu">
-        <div class="option">
-            <p>АДМИНИСТРАТИВНЫЕ ПРОЦЕДУРЫ</p>
-            <img class="optionIcons" src="./img/_administrative procedures.png" alt="" srcset="">
+        <div class="option" value='0' id='important'>
+            <p></p>
+            <img class="optionIcons"  alt="" srcset="">
         </div>
-        <div class="option">
-            <p>РУКОВОДСТВО</p>
-            <img class="optionIcons" src="./img/_Guide.png" alt="" srcset="">
+        <div class="option" value='1'>
+            <p></p>
+            <img class="optionIcons"  alt="" srcset="">
         </div>
-        <div class="option">
-            <p>ГРАФИК ПРИЕМА</p>
-            <img class="optionIcons" src="./img/_reception schedule.png" alt="" srcset="">
+        <div class="option" value='2'>
+            <p></p>
+            <img class="optionIcons"  alt="" srcset="">
         </div>
-        <div class="option last">
-            <p>СТРУКТУРА</p>
-            <img class="optionIcons" src="./img/__structure.png" alt="" srcset="">
+        <div class="option" value='3'>
+            <p></p>
+            <img class="optionIcons"  alt="" srcset="">
         </div>
     </div>
 </main>     
 <footer>
     <div class="upper">
-        <p>Национальный оператор почтовой связи Республики Беларусь</p>
+        <p style="text-align: right;">Национальный оператор почтовой связи Республики Беларусь</p>
         <img src="./img/kjujnbg.png" alt="" srcset="">
         <p>Покупайте белорусские товары на shop.belpost.by</p>
     </div>
@@ -59,5 +56,6 @@
         <p>High-tech.by</p>
     </div>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
