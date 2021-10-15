@@ -13,11 +13,15 @@ header{
     line-height: 73px;
     text-align: left;
     color: white;
-    height: 73px;
+    /* height: 73px; */
     padding: 0 60px;
 }
+i{
+    font-size: 20px;
+    vertical-align: text-top;
+}
 .mainDiv{
-    background: url('../img/images 2.png') no-repeat center;
+    background: url('../img/images2.png') no-repeat center;
     background-size: 100%;
     height: 500px;
     display: flex;
@@ -25,13 +29,29 @@ header{
     align-items: center;
     padding: 0 20px;
 }
+.module{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
 .menu{
     background: url('../img/фон.png') no-repeat center;
     background-size: 100%;
     height: 1129px;
     padding: 60px 55px 0 55px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content: flex-start;
+}
+h1{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 26px;
+    color:rgba(44, 44, 51, 1);
+    text-align: center;
+    /* flex-grow: 5; */
 }
 .option{
     position: relative;
@@ -43,10 +63,13 @@ header{
     padding: 60px 20px 45px 20px;
     text-align: right;
 }
+.option p{
+    padding-right: 20px;
+}
 .optionIcons{
     position: absolute;
     top: 146px;
-    left: 25px;
+    left: 35px;
 }
 footer{
     background-color: rgba(0, 157, 233, 1);
@@ -66,6 +89,9 @@ footer{
 }
 .upper img{
     margin: 0 45px;
+}
+.upper p{
+    width: 309px;
 }
 .lower{
     display: flex;
